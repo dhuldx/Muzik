@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.muzik.MainActivity">
+    <TextView
+        android:id="@+id/listen"
+        style="@style/MyMaterialTheme"
+        android:background="@color/category_numbers"
+        android:text="@string/listen"
+        />
+
+       <TextView
+        android:id="@+id/topCharts"
+        style="@style/MyMaterialTheme"
+        android:background="@color/category_colors"
+        android:text="@string/top_charts"
+        />
+
+    <TextView
+        android:id="@+id/library"
+        style="@style/MyMaterialTheme"
+        android:background="@color/category_phrases"
+        android:text="@string/library"
+        />
+    <TextView
+        android:id="@+id/shop"
+        style="@style/MyMaterialTheme"
+        android:background="@color/category_family"
+        android:text="@string/shop"
+        />
+</LinearLayout>

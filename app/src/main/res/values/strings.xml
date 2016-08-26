@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Muzik</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+
+    <!-- Shop for music online [CHAR LIMIT=20] -->
+    <string name="shop">Shop</string>
+
+    <!-- Top Charts currently[CHAR LIMIT=20] -->
+    <string name="top_charts">Top Charts</string>
+
+    <!-- details of the song being played [CHAR LIMIT=20] -->
+    <string name="listen">Listen</string>
+
+    <!-- Category of the songs by type [CHAR LIMIT=20] -->
+    <string name="library">Library</string>
+    <string name="title_activity_library">Library</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
