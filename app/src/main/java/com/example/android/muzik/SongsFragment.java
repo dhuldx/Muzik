@@ -11,7 +11,7 @@ import com.example.android.miwok.R;
 
 public class SongsFragment extends Fragment{
 
-    public SongsFragment() {
+    public SongsFragment () {
         // Required empty public constructor
     }
 

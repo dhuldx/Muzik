@@ -29,18 +29,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-             <activity android:name="com.example.android.muzik.ListenActivity"
-            android:label="Listen"/>
-        <activity android:name="com.example.android.muzik.TopChartsActivity"
-            android:label="Top Charts"/>
+        <activity
+            android:name="com.example.android.muzik.ListenActivity"
+            android:label="Listen" />
+        <activity
+            android:name="com.example.android.muzik.TopChartsActivity"
+            android:label="Top Charts" />
         <activity
             android:name="com.example.android.muzik.LibraryActivity"
             android:label="@string/title_activity_library"
-            android:theme="@style/MyMaterialTheme" />
-        <activity android:name="com.example.android.muzik.ShopActivity"
-            android:label="Shop"/>
-
-
+            android:parentActivityName="com.example.android.muzik.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.android.muzik.ShopActivity"
+            android:label="Shop" />
+        <activity android:name="com.example.android.muzik.PaymentActivity"
+            android:label="Payment"
+            />
     </application>
 
 </manifest>
