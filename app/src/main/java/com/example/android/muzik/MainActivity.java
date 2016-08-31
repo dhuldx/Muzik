@@ -17,59 +17,55 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file5
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the numbers category
+        // Find the View that shows the Listen category
         TextView listen = (TextView) findViewById(R.id.listen);
 
         if (listen != null) {
             listen.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent numbersIntent = new Intent(MainActivity.this, ListenActivity.class);
-                    startActivity(numbersIntent);
+                    Intent listenIntent = new Intent(MainActivity.this, ListenActivity.class);
+                    startActivity(listenIntent);
                 }
             });
         }
 
-        // Find the View that shows the colors category
+        // Find the View that shows the Top charts category
         TextView topCharts = (TextView) findViewById(R.id.topCharts);
 
         if (topCharts != null) {
             topCharts.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent colorsIntent = new Intent(MainActivity.this, TopChartsActivity.class);
-                    startActivity(colorsIntent);
+                    Intent topChartsIntent = new Intent(MainActivity.this, TopChartsActivity.class);
+                    startActivity(topChartsIntent);
                 }
             });
         }
 
-        // Find the View that shows the phrases category
+        // Find the View that shows the library category
         TextView library = (TextView) findViewById(R.id.library);
 
         if (library != null) {
             library.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent phrasesIntent = new Intent(MainActivity.this, LibraryActivity.class);
-                    startActivity(phrasesIntent);
+                    Intent libraryIntent = new Intent(MainActivity.this, LibraryActivity.class);
+                    startActivity(libraryIntent);
                 }
             });
         }
-
-        // Find the View that shows the family category
+        // Find the View that shows the shop category
         TextView shop = (TextView) findViewById(R.id.shop);
-
         if (shop != null) {
             shop.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent familyIntent = new Intent(MainActivity.this, ShopActivity.class);
-                    startActivity(familyIntent);
+                    Intent shopIntent = new Intent(MainActivity.this, ShopActivity.class);
+                    startActivity(shopIntent);
                 }
             });
         }
     }
-
-
 }
 

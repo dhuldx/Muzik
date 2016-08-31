@@ -21,13 +21,31 @@
     <string name="action_settings">Settings</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="expiry">MM/YY</string>
-    <string name="card">1234 1234 1234 1234</string>
-    <string name="CVV">123</string>
+    <string name="expiryFormat">MM/YY</string>
+    <string name="cardHint">1234 1234 1234 1234</string>
+    <string name="cvvHint">123</string>
     <string name="prev">prev</string>
     <string name="next">next</string>
     <string name="play">play</string>
     <string name="pause">pause</string>
+    <string name="payment_success">Payment Successful !! Listen to music now</string>
+    <string name="payment_failure">Payment Failed. Try Again</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="expiry">Expiry</string>
+    <string name="cvv">CVV</string>
+    <string name="submit">Submit</string>
+    <string name="card">Card</string>
+    <string name="buySongs">Select your songs to buy</string>
+    <string name="top10">Top 10 this week</string>
+    <string name="buy">Buy</string>
+    <string name="musicPlayer">Music Palyer</string>
+    <string name="albums">albums</string>
+    <string name="palylists">palylists</string>
+
+
+
+
+
 
 
 </resources>

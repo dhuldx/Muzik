@@ -14,15 +14,15 @@ public class ShopActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop);
-        // Find the View that shows the family category
+        // Find the View that shows the shop category
         TextView buy = (TextView) findViewById(R.id.buy);
 
         if (buy != null) {
             buy.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent familyIntent = new Intent(ShopActivity.this, PaymentActivity.class);
-                    startActivity(familyIntent);
+                    Intent shopIntent = new Intent(ShopActivity.this, PaymentActivity.class);
+                    startActivity(shopIntent);
                 }
             });
         }

@@ -1,35 +1,28 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.android.muzik.AlbumFragment">
-    <RelativeLayout
-        android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="16dp"
+android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <!-- TODO: Update blank fragment layout -->
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/album"
-            android:text="Albums "
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="#757575"
-            android:layout_centerInParent="true"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_below="@id/album"
-            android:layout_centerInParent="true"
-            android:id="@+id/play"
-            android:text="play" />
-    </RelativeLayout>
+        android:text="@string/albums"
+        android:textColor="#757575"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
 
 
-</ScrollView>
+<Button
+    android:id="@+id/play"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="?android:actionBarSize"
+    android:text="@string/play" />
 
+</RelativeLayout>

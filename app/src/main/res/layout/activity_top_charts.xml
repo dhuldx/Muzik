@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Top 10 this week"
+        android:text="@string/top10"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#757575"
@@ -26,5 +26,5 @@
         android:layout_marginRight="22dp"
         android:layout_marginBottom="8dp"
         android:id="@+id/play"
-        android:text="play" />
+        android:text="@string/play" />
 </RelativeLayout>

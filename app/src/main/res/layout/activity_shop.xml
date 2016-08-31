@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select your songs to buy"
+        android:text="@string/buySongs"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#757575"
@@ -28,7 +28,7 @@
         android:layout_marginRight="22dp"
         android:layout_marginBottom="8dp"
         android:id="@+id/buy"
-        android:text="buy" />
+        android:text="@string/buy" />
 
 
 </RelativeLayout>

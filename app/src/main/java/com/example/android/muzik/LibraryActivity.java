@@ -13,6 +13,7 @@ import com.example.android.miwok.R;
 
 import java.util.ArrayList;
 import java.util.List;
+
 public class LibraryActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
@@ -31,7 +32,6 @@ public class LibraryActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
-
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
     }
@@ -61,12 +61,10 @@ public class LibraryActivity extends AppCompatActivity {
         public int getCount() {
             return mFragmentList.size();
         }
-
         public void addFragment(Fragment fragment, String title) {
             mFragmentList.add(fragment);
             mFragmentTitleList.add(title);
         }
-
         @Override
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);

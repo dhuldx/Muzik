@@ -15,15 +15,14 @@ public class TopChartsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_charts);
 
+        // Find the View that shows the Top charts category
         TextView play = (TextView) findViewById(R.id.play);
-
         if (play != null) {
             play.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent paymentIntent = new Intent(TopChartsActivity.this, ListenActivity.class);
-                    startActivity(paymentIntent);
-
+                    Intent topChartsIntent = new Intent(TopChartsActivity.this, ListenActivity.class);
+                    startActivity(topChartsIntent);
                 }
             });
         }

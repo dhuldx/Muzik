@@ -1,28 +1,29 @@
 
 <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.muzik.PlaylistFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.android.muzik.PlaylistFragment">
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Playlists"
+        android:text="@string/palylists"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#757575"
         android:layout_centerInParent="true"/>
     <Button
+        android:id="@+id/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/play"
-        android:text="play" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="?android:actionBarSize"
+        android:text="@string/play" />
+
 </RelativeLayout>
 
 

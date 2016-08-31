@@ -16,7 +16,7 @@ public class PaymentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
-
+        // Find the View that shows the payment category
         TextView submit = (TextView) findViewById(R.id.submit);
 
         if (submit != null) {
@@ -24,12 +24,10 @@ public class PaymentActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     Intent paymentIntent = new Intent(PaymentActivity.this, MainActivity.class);
-                    Toast.makeText(PaymentActivity.this,"Payment Successful !! Listen to music now", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PaymentActivity.this,getString(R.string.payment_success), Toast.LENGTH_SHORT).show();
                     startActivity(paymentIntent);
-
                 }
             });
         }
-
     }
 }
