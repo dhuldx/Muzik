@@ -29,5 +29,21 @@ public class PaymentActivity extends AppCompatActivity {
                 }
             });
         }
+
+        // Cancel functionality
+
+        TextView cancel = (TextView) findViewById(R.id.cancel);
+
+        if (cancel != null) {
+            cancel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent paymentIntent = new Intent(PaymentActivity.this, ShopActivity.class);
+                    Toast.makeText(PaymentActivity.this,getString(R.string.payment_failure), Toast.LENGTH_SHORT).show();
+                    startActivity(paymentIntent);
+                }
+            });
+        }
+
     }
 }

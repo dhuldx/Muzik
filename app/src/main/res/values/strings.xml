@@ -29,7 +29,7 @@
     <string name="play">play</string>
     <string name="pause">pause</string>
     <string name="payment_success">Payment Successful !! Listen to music now</string>
-    <string name="payment_failure">Payment Failed. Try Again</string>
+    <string name="payment_failure">Payment Cancelled</string>
     <string name="now_playing">Now Playing</string>
     <string name="expiry">Expiry</string>
     <string name="cvv">CVV</string>
@@ -41,6 +41,7 @@
     <string name="musicPlayer">Music Palyer</string>
     <string name="albums">albums</string>
     <string name="palylists">palylists</string>
+    <string name="cancel">Cancel</string>
 
 
 

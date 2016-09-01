@@ -1,65 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.muzik.PaymentActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/card" />
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/countryName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/cardHint"
-        android:inputType="number"
-        android:text="" />
 
-    <TextView
-        android:id="@+id/fff"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/expiry" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/card" />
 
-    <EditText
-        android:id="@+id/gh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/expiryFormat"
-        android:text="" />
+        <EditText
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/cardHint"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:text="" />
 
-    <TextView
-        android:id="@+id/jjjj"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/cvv" />
+        <TextView
+            android:id="@+id/fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/expiry" />
 
-    <EditText
-        android:id="@+id/ujjh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/cvvHint"
-        android:text="" />
+        <EditText
+            android:id="@+id/gh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/expiryFormat"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:text="" />
 
-    <Button
-        android:id="@+id/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
-        android:text="@string/submit" />
+        <TextView
+            android:id="@+id/jjjj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/cvv" />
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/ujjh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/cvvHint"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="@string/submit" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

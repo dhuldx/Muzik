@@ -21,7 +21,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden|adjustResize">
         <activity android:name="com.example.android.muzik.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,9 +44,9 @@
         <activity
             android:name="com.example.android.muzik.ShopActivity"
             android:label="Shop" />
-        <activity android:name="com.example.android.muzik.PaymentActivity"
-            android:label="Payment"
-            />
+        <activity
+            android:name="com.example.android.muzik.PaymentActivity"
+            android:label="Payment" />
     </application>
 
 </manifest>
