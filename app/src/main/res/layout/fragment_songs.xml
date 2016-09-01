@@ -16,43 +16,18 @@
             android:textColor="#757575"
             android:layout_centerInParent="true"/>
 
-        <Button
-    android:id="@+id/button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:layout_marginBottom="?android:actionBarSize"
-    android:text="@string/prev" />
+
 
         <Button
             android:id="@+id/play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@id/button"
-            android:layout_toRightOf="@id/button"
+            android:layout_centerHorizontal="true"
             android:layout_marginBottom="?android:actionBarSize"
             android:text="@string/play" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@id/play"
-            android:layout_toEndOf="@id/play"
-            android:layout_marginBottom="?android:actionBarSize"
-            android:text="@string/pause" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@id/button3"
-            android:layout_toEndOf="@id/button3"
-            android:layout_marginBottom="?android:actionBarSize"
-            android:text="@string/next" />
 
 </RelativeLayout>
 

@@ -24,8 +24,8 @@
     <string name="expiryFormat">MM/YY</string>
     <string name="cardHint">1234 1234 1234 1234</string>
     <string name="cvvHint">123</string>
-    <string name="prev">prev</string>
-    <string name="next">next</string>
+    <string name="fwd">fwd</string>
+    <string name="back">back</string>
     <string name="play">play</string>
     <string name="pause">pause</string>
     <string name="payment_success">Payment Successful !! Listen to music now</string>
